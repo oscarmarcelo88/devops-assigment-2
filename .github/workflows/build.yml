@@ -32,7 +32,7 @@ jobs:
         with:
           registry: ${{ ghcr }}
           username: ${{ oscarmarcelo88 }}
-          password: ${{ env.github-token }}
+          password: ${{ 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 }}
 
       - name: Extract metadata (tags, labels) for Docker
         id: meta
